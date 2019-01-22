@@ -6,9 +6,24 @@ namespace app_friday
     {
         static void Main(string[] args)
         {
+            String name;
+            bool business =false;
+            char type;
             int total_watts=0,number,i=0;
-            double hrs,kwh=0;
+            double hrs,kwh=0,rate;
+            decimal bill;
             Console.WriteLine("Electricity bill calculator: ");
+            Console.WriteLine("Enter your name: ");
+            name = Console.ReadLine();
+            Console.WriteLine("Hi "+name+",\nEnter 'y' if you want to calculate your bill for Business. Else enter any other key.");
+            type = Convert.ToChar(Console.ReadLine());
+            if(type=='y') business=true;
+            if(business){
+                rate = 0.20;
+            }
+            else{
+                rate = 0.10;
+            }
             Console.WriteLine("Enter total no. of electrical devices working: ");
             number = Convert.ToInt32(Console.ReadLine());
             for(i=0;i<number;i++){
@@ -30,7 +45,15 @@ namespace app_friday
                 case 3: Console.WriteLine("You have used "+kwh/1000+" mega-watt-hrs"); break;
                 default:  Console.WriteLine("You have used "+kwh+" kilo-watt-hrs"); break;
             }
-
+            bill = Convert.ToDecimal(kwh*rate);
+            Console.WriteLine("Press enter when you are ready to view your bill: ");
+            Console.ReadLine();
+            Console.WriteLine("***************************************************");
+            Console.WriteLine(name+", Your Electricity Bill");
+            Console.WriteLine("***************************************************");
+            Console.WriteLine("Total Usage:\t\t"+kwh+" kWh");
+            Console.WriteLine("Total Cost:\t\t$"+bill);
+            Console.WriteLine("***************************************************");
         }
     }
 }
