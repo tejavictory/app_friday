@@ -1,0 +1,11 @@
+C:\Users\S533708\Documents\44663\app_friday\obj\Debug\netcoreapp2.2\app_friday.csprojAssemblyReference.cache
+C:\Users\S533708\Documents\44663\app_friday\obj\Debug\netcoreapp2.2\app_friday.csproj.CoreCompileInputs.cache
+C:\Users\S533708\Documents\44663\app_friday\obj\Debug\netcoreapp2.2\app_friday.AssemblyInfoInputs.cache
+C:\Users\S533708\Documents\44663\app_friday\obj\Debug\netcoreapp2.2\app_friday.AssemblyInfo.cs
+C:\Users\S533708\Documents\44663\app_friday\bin\Debug\netcoreapp2.2\app_friday.deps.json
+C:\Users\S533708\Documents\44663\app_friday\bin\Debug\netcoreapp2.2\app_friday.runtimeconfig.json
+C:\Users\S533708\Documents\44663\app_friday\bin\Debug\netcoreapp2.2\app_friday.runtimeconfig.dev.json
+C:\Users\S533708\Documents\44663\app_friday\bin\Debug\netcoreapp2.2\app_friday.dll
+C:\Users\S533708\Documents\44663\app_friday\bin\Debug\netcoreapp2.2\app_friday.pdb
+C:\Users\S533708\Documents\44663\app_friday\obj\Debug\netcoreapp2.2\app_friday.dll
+C:\Users\S533708\Documents\44663\app_friday\obj\Debug\netcoreapp2.2\app_friday.pdb
