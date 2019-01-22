@@ -49,10 +49,13 @@ namespace app_friday
             Console.WriteLine("Press enter when you are ready to view your bill: ");
             Console.ReadLine();
             Console.WriteLine("***************************************************");
-            Console.WriteLine(name+", Your Electricity Bill");
+            Console.WriteLine("                 Electricity Bill                  ");
             Console.WriteLine("***************************************************");
-            Console.WriteLine("Total Usage:\t\t"+kwh+" kWh");
-            Console.WriteLine("Total Cost:\t\t$"+bill);
+            Console.WriteLine("Name: "+name);
+            Console.WriteLine("Usage Type: "+(business?"Business":"Household"));
+            Console.WriteLine("Total Usage:\t\t\t"+kwh+" kWh");
+            Console.WriteLine("***************************************************");
+            Console.WriteLine("Total bill amount:\t\t$"+bill);
             Console.WriteLine("***************************************************");
         }
     }
