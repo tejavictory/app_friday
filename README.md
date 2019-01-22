@@ -13,4 +13,4 @@ This app takes the following details:
 
 With the input received, the total electricity usage is calculated and then the bill is displayed with the standard rates.
 
-**Note** Rates are for testing purpose only.
+**Note:** Rates are for testing purpose only.
