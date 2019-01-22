@@ -5,7 +5,7 @@
 **.NET Console Application**
 
 This app takes the following details:
-- Name
+- Name of the user
 - Type of Electricity Usage **Business/Household**
 - Number of Electrical Devices
 - Power rating for each device
