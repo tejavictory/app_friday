@@ -19,7 +19,7 @@ namespace app_friday
                 Console.WriteLine("Please enter your name: ");
                 name = Console.ReadLine();
             }
-            Console.WriteLine("Hi "+name+",\nEnter 'y' if you want to calculate your bill for Business. Else enter any other key.");
+            Console.WriteLine($"Hi {name},\nEnter 'y' if you want to calculate your bill for Business. Else enter any other key.");
             type = Convert.ToChar(Console.ReadLine());
             if(type=='y') business=true;
             if(business){
