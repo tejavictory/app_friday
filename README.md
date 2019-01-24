@@ -13,4 +13,9 @@ This app takes the following details:
 
 With the input received, the total electricity usage is calculated and then the bill is displayed with the standard rates.
 
+Given screenshot shows the working.
+
+![Screenshot](https://github.com/tejavictory/app_friday/blob/master/working_screenshot.png)
+
 **Note:** Rates are for testing purpose only.
+
