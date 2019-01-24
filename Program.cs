@@ -15,6 +15,10 @@ namespace app_friday
             Console.WriteLine("Electricity bill calculator: ");
             Console.WriteLine("Enter your name: ");
             name = Console.ReadLine();
+            if(name==""){
+                Console.WriteLine("Please enter your name: ");
+                name = Console.ReadLine();
+            }
             Console.WriteLine("Hi "+name+",\nEnter 'y' if you want to calculate your bill for Business. Else enter any other key.");
             type = Convert.ToChar(Console.ReadLine());
             if(type=='y') business=true;
