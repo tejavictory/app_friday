@@ -49,7 +49,7 @@ namespace app_friday
                 case 3: Console.WriteLine("You have used "+kwh/1000+" mega-watt-hrs"); break;
                 default:  Console.WriteLine("You have used "+kwh+" kilo-watt-hrs"); break;
             }
-            bill = Convert.ToDecimal(kwh*rate);
+            bill = Convert.ToDecimal(billAmount(kwh, rate));
             Console.WriteLine("Press enter when you are ready to view your bill: ");
             Console.ReadLine();
             Console.WriteLine("***************************************************");
@@ -61,6 +61,10 @@ namespace app_friday
             Console.WriteLine("***************************************************");
             Console.WriteLine("Total bill amount:\t\t$"+bill);
             Console.WriteLine("***************************************************");
+        }
+
+        public static double billAmount(double kwh, double rate){
+            return kwh*rate;
         }
     }
 }
